@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <span>📞 +63 912 345 6789</span>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/19rBgs1Laq/" target="_blank">
+                <img src="images/2021_Facebook_icon.svg" alt="Facebook">
+            </a>
+            <a href="https://www.youtube.com/@glaziorytofficial496" target="_blank">
+                <img src="images/youtube-svgrepo-com.svg" alt="Youtube">
+            </a>                        
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact -->
+<section id="contact-form">
+    <div class="form-container">
+        <h2>Contact Me</h2>
+        <p>Send me a message and I’ll get back to you!</p>
+
+        <form action="mailto:patrickmacatiag29@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 GLAZIOR_303. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
